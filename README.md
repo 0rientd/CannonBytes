@@ -1,9 +1,9 @@
 					
-                                        ###########################################################
-						                #              DOS SCRIPT BY HACKER ORIENTADO             #
-                                        #         CannonBytes v0.9.1 ( Denial of Servide )        #
-                                        #     NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS    #
-                                        ###########################################################
+                  ###########################################################
+                  #              DOS SCRIPT BY HACKER ORIENTADO             #
+                  #         CannonBytes v0.9.1 ( Denial of Servide )        #
+                  #     NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS    #
+                  ###########################################################
 
 
 
@@ -85,12 +85,9 @@ v 0.9
 
 - LEVE MUDANÇA NOS "print" DO COMANDO DE AJUDA.
 
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
 																		                                                                                                                         |
-PS: EU ESTOU DESPONIBILIZANDO ESTE SCRIPT POIS ACHO QUE CONHECIMENTO DEVE SER LIVRE E DE TODOS! USE, EDITE E COMPILE MAS SEMPRE COMPARTILHE O CÓDIGO FONTE!  |
+PS: EU ESTOU DESPONIBILIZANDO ESTE SCRIPT POIS ACHO QUE CONHECIMENTO DEVE SER LIVRE E DE TODOS! USE, EDITE E COMPILE MAS SEMPRE COMPARTILHE O CÓDIGO FONTE!
 																		                                                                                                                         |
---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ESTE PROGRAMA É PARA ESTUDO E NÃO FOI DISPONIBILIZADO PARA EFETUAR A QUEDA DA INTERNET DE OUTRAS PESSOAS POIS ISSO É CRIME!
 EU NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS.
