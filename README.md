@@ -1,9 +1,10 @@
-					###########################################################
-					#	       DOS SCRIPT BY HACKER ORIENTADO	          #
-					#						          #
-					#	  CannonBytes v0.9.1 ( Denial of Servide )        #
-					#     NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS    #
-					###########################################################
+					
+                                        ###########################################################
+						#              DOS SCRIPT BY HACKER ORIENTADO             #
+                                        #         CannonBytes v0.9.1 ( Denial of Servide )        #
+                                        #     NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS    #
+                                        ###########################################################
+
 
 
 FORMAS DE USO:
