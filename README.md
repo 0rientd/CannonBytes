@@ -1,7 +1,7 @@
 					
                   ###########################################################
                   #              DOS SCRIPT BY HACKER ORIENTADO             #
-                  #         CannonBytes v0.9.1 ( Denial of Servide )        #
+                  #         CannonBytes v1.0.0 ( Denial of Servide )        #
                   #     NÃO ME RESPONSABILIZO PELO USO DE OUTRAS PESSOAS    #
                   ###########################################################
 
@@ -17,24 +17,40 @@ OU MODO LINHA DE COMANDO:
 
 c:\xxx\xxx\>CannonBytes.pl ( IP ou URL ) PORTA PACOTE VEZES PROTOCOLO INTERVALO
 
-c:\xxx\xxx\>CannonBytes.pl www.yahoo.com.br 80 64000 5000 tcp 30
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 80 64000 5000 tcp 30
 
 
 PARA VERSÕES 0.9+
 
-c:\xxx\xxx\>CannonBytes.pl www.yahoo.com.br 80 64000 5000 tcp 30
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 80 64000 5000 tcp 30
 * FAZ O ATAQUE NORMALMENTE COM APENAS 1 THREAD *
 
-c:\xxx\xxx\>CannonBytes.pl www.yahoo.com.br 80 64000 5000 tcp 30 -threads
-* COM O USO DO COMANDO " -threads " VOCÊ PODERม USAR 2 THREADS PARA FAZER O ATAQUE *
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 80 64000 5000 tcp 30 -threads
+* COM O USO DO COMANDO " -threads " VOCÊ PODERÁ USAR 2 THREADS PARA FAZER O ATAQUE *
 * PS: EDITE CASO QUEIRA MAIS DE DUAS THREADS *
 
-c:\xxx\xxx\>CannonBytes.pl www.yahoo.com.br 80 64000 5000 tcp 30 -h
-* ASSIM IRม ANULAR TODO O CÓDIGO ESCRITO E IRÁ APENAS PRINTAR NA TELA O COMANDO DE AJUDA BÁSICO *
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 80 64000 5000 tcp 30 -h
+* ASSIM IRÁ ANULAR TODO O CÓDIGO ESCRITO E IRÁ APENAS PRINTAR NA TELA O COMANDO DE AJUDA BÁSICO *
 
-c:\xxx\xxx\>CannonBytes.pl www.yahoo.com.br -threads
-* IRม GERAR UM ERRO POIS APENAS 1 THREAD SERม INICIADA E A SEGUNDA NรO IRÁ TER OS DADOS PARA CONTINUAR, JÁ QUE VC USOU O COMANDO THREADS QUE USA MAIS DE UMA. *
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 -threads
+* COMANDO NÃO SUPORTADO *
+* IRÁ GERAR UM ERRO POIS APENAS 1 THREAD SERÁ INICIADA E A SEGUNDA NÃO IRÁ TER OS DADOS PARA CONTINUAR, JÁ QUE VC USOU O COMANDO THREADS QUE USA MAIS DE UMA. *
 * PS: EM BREVE IREI CORRIGIR ISSO! * D:
+
+* PARA VERSÕES 1.0.0+
+c:\xxx\xxx\>CannonBytes.pl 192.168.1.2 80 64000 5000 tcp 30 -threads -torify
+* IRÁ MANDAR TODO O TRAFEGO DA SUA INTERNET PARA A REDE Tor. DEIXANDO VOCÊ "ANÔNIMO".
+PS: 
+TORIFY É UM PROJETO CRIADO POR ericpaulbishop QUE ENVIA TODO O TRAFEGO DA INTERNET PARA A REDE Tor USANDO IPTABLES
+ESTE PROJETO ESTA NO Github A 2 ANOS PORÉM FUNCIONA MUITO BEM!
+PARA QUEM TIVER DÚVIDAS DE QUEM SEU IP NÃO ESTA CAMUFLADO, VISTIE O SITE check.torproject.org OU USE O COMANDO "tcpdump host [IP QUE VC ESTA ATACANDO]" OU USE O Wireshark
+EU NÃO CRIEI O Torify, ENTÃO DEVO TODOS OS CRÉDITOS PELA FERRAMENTA AO ericpaulbishop PELA ÓTIMA FERRAMENTA QUE ELE CRIOU :D
+Github -> https://github.com/ericpaulbishop/iptables_torify
+
+c:\xxx\xxx\>CannonBytes.pl -portscan
+* SCAN BRUTE FORCE PARA SABER QUAIS PORTAS ESTÃO ABERTAS DA URL/IP ( PODE LHE SER ÚTIL ) *
+PS: ESTE COMANDO SÓ FUNCIONA DESTA MANEIRA. SE VOCÊ COLOCAR ALGO DEPOIS DO " -portscan " IRÁ BUGAR O SCRIPT!
+PS²: NAS PRÓXIMAS VERSÕES EU VOU TENTAR CORRIGIR ELA! SINTA-SE LIVRE PARA AJUDAR TAMBÉM EM MEU Github.
 
 
 ===============================================================================================================
@@ -84,6 +100,17 @@ v 0.9
 - CORRIGIDO ERRO QUE NÃO FAZIA UMA PARTE DO CÓDIGO SER PRINTADA.
 
 - LEVE MUDANÇA NOS "print" DO COMANDO DE AJUDA.
+
+
+v 1.0.0
+- ADICIONADO O USO DO Torify. TOOL QUE MANDA TODO O TRAFEGO DE SUA INTERNET PARA A REDE Tor! VALE A PENA DAR UMA OLHADA NO Github da tool. :D
+
+- ADICIONADO PORTSCAN DE FORÇA BRUTA PARA ACHAR PORTAS ABERTAS EM SERVERS ( SCAN SIMPLES MAS FUNCIONAL! ).
+
+- LEVE MUDANÇA NO CÓDIGO.
+
+- MELHORADO O COMANDO DE AJUDA. CONFIRA :D
+
 
 																		                   
 PS: EU ESTOU DESPONIBILIZANDO ESTE SCRIPT POIS ACHO QUE CONHECIMENTO DEVE SER LIVRE E DE TODOS! USE, EDITE E COMPILE MAS SEMPRE COMPARTILHE O CÓDIGO FONTE!
